@@ -24,3 +24,5 @@
 3. Check every internal and external link.
 4. Test static site locally/through Cloudflare.
 5. Only then change DNS.
+
+Deployment retry after reducing IMG_3691 below Cloudflare's asset-size limit.
