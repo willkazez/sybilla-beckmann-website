@@ -1,28 +1,15 @@
-# Migration status — 2026-09-14
+# Migration status — 2026-09-18
 
-## Confirmed from live site
-- Home
-- About Me
-- Contact Me
-- Arithmetic for Teachers + MATH 5020/7020 archive pages
-- Proportional Relationships for Teachers + MATH 5035/7035 archive pages
-- Geometry for Teachers + MATH 2001 archive pages
-- Further Resources / research links
+## Completed on migration-content
+- Core static pages and navigation preserved.
+- Nine course/archive pages replaced with local static course content and preserved educational-resource links.
+- About Me photograph added from the local converted asset.
+- README updated.
 
-## Local assets received
-- Area.png
-- AreaInTheCommonCore.pdf
+## Remaining validation
+1. Test the static site on a temporary Cloudflare address.
+2. Check navigation, images, PDF links, and external resources.
+3. Confirm any remaining legacy downloadable assets.
+4. Only after testing, configure the custom domain and DNS routing.
 
-## Not yet received
-- sybilla_beckmann.jpeg
-- 4 HEIC photographs
-- AreainTheCommonCore.pfe
-
-## Next work
-1. Transfer complete page text and downloadable links from the live Wix pages.
-2. Add local images and documents.
-3. Check every internal and external link.
-4. Test static site locally/through Cloudflare.
-5. Only then change DNS.
-
-Deployment retry after reducing IMG_3691 below Cloudflare's asset-size limit.
+The main branch remains the rollback copy.
